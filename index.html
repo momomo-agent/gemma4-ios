@@ -6,22 +6,29 @@
     <title>iOS Claw - OTA Install</title>
     <style>
         body { font-family: -apple-system, sans-serif; text-align: center; padding: 40px 20px; background: #0a0a0a; color: #fff; }
-        .card { background: #1a1a1a; border-radius: 16px; padding: 32px; max-width: 400px; margin: 0 auto; }
+        .card { background: #1a1a1a; border-radius: 16px; padding: 32px; max-width: 420px; margin: 0 auto; }
         h1 { font-size: 24px; margin-bottom: 8px; }
         .subtitle { color: #888; margin-bottom: 24px; }
         .install-btn { display: inline-block; background: #34C759; color: #fff; text-decoration: none; padding: 14px 32px; border-radius: 12px; font-size: 17px; font-weight: 600; }
-        .note { color: #888; font-size: 13px; margin-top: 20px; }
-        .badge { display: inline-block; background: #1a3a5c; color: #5ac8fa; padding: 4px 10px; border-radius: 6px; font-size: 12px; margin-top: 12px; margin-left: 4px; }
+        .features { text-align: left; margin-top: 20px; }
+        .features div { color: #aaa; font-size: 13px; padding: 3px 0; }
+        .badge { display: inline-block; background: #1a3a5c; color: #5ac8fa; padding: 3px 8px; border-radius: 5px; font-size: 11px; margin: 2px; }
     </style>
 </head>
 <body>
     <div class="card">
         <h1>✨ iOS Claw</h1>
         <p class="subtitle">On-device AI Agent · Gemma 4</p>
-        <a class="install-btn" href="itms-services://?action=download-manifest&url=https://momomo-agent.github.io/gemma4-ios/manifest.plist">Install v1.3.0</a>
-        <div class="badge">M3: 内存优化</div>
-        <div class="badge">M2: 多对话</div>
-        <p class="note">动态 history depth · Memory.clearCache · [MEM] 诊断日志</p>
+        <a class="install-btn" href="itms-services://?action=download-manifest&url=https://momomo-agent.github.io/gemma4-ios/manifest.plist">Install v1.7.0</a>
+        <div class="features">
+            <div><span class="badge">M1</span> 多轮对话 · E2B/E4B 切换 · 语音/图片输入</div>
+            <div><span class="badge">M2</span> 多对话管理 · 持久化 · 标题自动生成</div>
+            <div><span class="badge">M3</span> 内存优化 · 动态 history depth · clearCache</div>
+            <div><span class="badge">M4</span> Tool Use · 时间/剪贴板/天气/URL/文件读写</div>
+            <div><span class="badge">M5</span> iCloud 文件操作 · Settings 同步</div>
+            <div><span class="badge">M6</span> Memory 系统 · 自动记忆提取 · recall</div>
+            <div><span class="badge">M7</span> 主题设置 · Haptic · 多行输入 · 动画</div>
+        </div>
     </div>
 </body>
 </html>
